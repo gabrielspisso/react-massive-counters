@@ -1,6 +1,7 @@
 {
   "name": "react-massive-counters",
   "version": "0.1.0",
+  "homepage": "https://gabrielspisso.github.io/react-massive-counters",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.0",
@@ -26,7 +27,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,6 +50,7 @@
     ]
   },
   "devDependencies": {
-    "@types/lodash": "^4.14.182"
+    "@types/lodash": "^4.14.182",
+    "gh-pages": "^4.0.0"
   }
 }
