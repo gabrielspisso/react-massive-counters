@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Visit the demo site
+https://gabrielspisso.github.io/react-massive-counters/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
